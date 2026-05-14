@@ -202,3 +202,12 @@ footer {
     color: #3498db;
     border-bottom: 2px solid #3498db;
 }
+
+.icon_link img {
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.icon_link img {
+    filter: sepia(10%) saturate(50%) hue-rotate(20deg);
+    transform: scale(1.1);
+}
