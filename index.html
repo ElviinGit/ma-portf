@@ -3,168 +3,122 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QA Automation Engineer | Portfolio</title>
-    <style>
-        /* Muted, Professional Color Palette */
-        :root {
-            --bg-color: #f0f1f2;
-            --text-main: #333639;
-            --text-muted: #6c757d;
-            --accent-color: #5b6b7a;
-            --card-bg: #ffffff;
-            --border-color: #dee2e6;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            line-height: 1.6;
-            padding: 2rem;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        header {
-            margin-bottom: 3rem;
-            border-bottom: 2px solid var(--border-color);
-            padding-bottom: 1.5rem;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            color: var(--text-main);
-            margin-bottom: 0.5rem;
-        }
-
-        h2 {
-            font-size: 1.25rem;
-            color: var(--text-muted);
-            font-weight: 400;
-        }
-
-        section {
-            background-color: var(--card-bg);
-            padding: 2rem;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            margin-bottom: 2rem;
-        }
-
-        h3 {
-            color: var(--accent-color);
-            margin-bottom: 1rem;
-            font-size: 1.2rem;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 0.5rem;
-        }
-
-        ul {
-            list-style-type: none;
-        }
-
-        ul li {
-            margin-bottom: 0.5rem;
-        }
-
-        ul li::before {
-            content: "▪";
-            color: var(--text-muted);
-            margin-right: 10px;
-        }
-
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1rem;
-        }
-
-        .contact-links a {
-            color: var(--accent-color);
-            text-decoration: none;
-            margin-right: 1.5rem;
-            font-weight: 500;
-        }
-
-        .contact-links a:hover {
-            text-decoration: underline;
-        }
-
-        footer {
-            text-align: center;
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            margin-top: 3rem;
-        }
-    </style>
+    <title>Elvin Malikov | QA Automation Tester</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <header>
+    <nav id="navbar">
+        <div class="nav-content">
+            <h2>Elvin.QA</h2>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-container">
+            <img src="/assets/profile.jpg" alt="Elvin Malikov" class="profile-pic">
             <h1>Elvin Malikov</h1>
-            <h2>Software Quality Assurance & Automation Tester & Hello Mutherfugers</h2>
-        </header>
+            <h2>Automation Tester</h2>
+            <p>Baku, AZ1000 | +994506567001 | emelikov78@gmail.com</p>
+            <div class="hero-buttons">
+                <a href="/assets/Malikov_Elvin_QA.pdf" download class="btn">Download Resume (PDF)</a>
+                <a href="#contact" class="btn btn-outline">Get in Touch</a>
+            </div>
+        </div>
+    </section>
 
-        <section id="about">
+    <section id="about">
+        <div class="container">
             <h3>About Me</h3>
-            <p>I am a detail-oriented Automation Tester dedicated to ensuring software reliability and performance. I specialize in building robust, maintainable automated test suites, implementing CI/CD pipelines, and catching critical bugs before they reach production. My goal is to streamline the testing process while maintaining the highest quality standards.</p>
-        </section>
+            <p>I am an Automation Tester with hands-on experience in Python, Selenium, and Playwright. Skilled in designing and executing test scenarios, identifying defects, and improving test coverage for web applications. I have experience building structured test frameworks using the Page Object Model (POM) with a strong focus on reliability, maintainability, and real-world test automation.</p>
+        </div>
+    </section>
 
-        <section id="skills">
+    <section id="experience">
+        <div class="container">
+            <h3>Experience</h3>
+            
+            <div class="job">
+                <h4>ALOVSOFT, BAKU — Quality Assurance Tester</h4>
+                <span class="date">September 2024 - Present</span>
+                <ul>
+                    <li>Designed and executed end-to-end, system, and functional test scenarios for web applications.</li>
+                    <li>Built and maintained test automation frameworks using Python and Selenium.</li>
+                    <li>Generated Allure and HTML test reports for test execution and defect tracking.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h4>Freelancer, BAKU — QA Tester / Customer Service Analyst</h4>
+                <span class="date">January 2024 - September 2024</span>
+                <ul>
+                    <li>Performed UI/UX, cross-browser, beta, and mobile testing (Android).</li>
+                    <li>Conducted manual API testing using Postman.</li>
+                    <li>Acted as a bridge between users and technical teams, improving issue resolution flow.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h4>Freelancer, Remote — Quality Assurance Tester</h4>
+                <span class="date">May 2022 - January 2024</span>
+                <ul>
+                    <li>Executed manual testing for platforms including Revolut, IDEMIA, and Airbnb.</li>
+                    <li>Increased user engagement by 25% on an e-commerce platform by identifying usability issues.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
             <h3>Technical Skills</h3>
             <div class="skills-grid">
-                <div>
-                    <strong>Testing Frameworks:</strong>
-                    <ul>
-                        <li>Selenium WebDriver</li>
-                        <li>Cypress / Playwright</li>
-                        <li>TestNG / JUnit</li>
-                        <li>PyTest / Cucumber</li>
-                    </ul>
+                <div class="skill-category">
+                    <h4>Languages & Frameworks</h4>
+                    <p>Python, PowerShell, MySQL, Django, Selenium, Allure, Pytest</p>
                 </div>
-                <div>
-                    <strong>Tools & Tech:</strong>
-                    <ul>
-                        <li>Java / Python / JavaScript</li>
-                        <li>Postman / REST Assured (API)</li>
-                        <li>Git & GitHub / GitLab</li>
-                        <li>Jenkins / Docker (CI/CD)</li>
-                    </ul>
+                <div class="skill-category">
+                    <h4>Tools & CI/CD</h4>
+                    <p>Postman (API), Git, GitHub, JIRA, TestRail, Trello, Confluence, GitHub Actions</p>
+                </div>
+                <div class="skill-category">
+                    <h4>Soft Skills</h4>
+                    <p>Adaptability, Stress Management, Prompt Engineering, Strong Focus</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="experience">
-            <h3>Recent Experience</h3>
-            <ul>
-                <li><strong>Senior Automation Tester at [Company]</strong> (Year - Present)<br> Designed and maintained the core automation framework, reducing regression testing time by 40%.</li>
-                <li><strong>QA Analyst at [Company]</strong> (Year - Year)<br> Authored comprehensive test plans and executed automated API and UI tests.</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h3>Connect</h3>
-            <div class="contact-links">
-                <a href="mailto:your.email@example.com">Email Me</a>
-                <a href="https://linkedin.com/in/elvin-malikov-00512a1b2" target="_blank">LinkedIn</a>
-                <a href="https://github.com/ElviinGit" target="_blank">GitHub</a>
+    <section id="education">
+        <div class="container">
+            <h3>Education & Certifications</h3>
+            <div class="education-block">
+                <h4>Baku State University — Bachelor of Mathematics</h4>
+                <span class="date">September 2012 - July 2016</span>
+                <p>Proficient in Advanced Calculus, Linear Algebra, Abstract Algebra, Probability and Statistics.</p>
             </div>
-        </section>
+            <div class="cert-block mt-2">
+                <h4>Certifications</h4>
+                <ul>
+                    <li>UDEMY - Software Testing Masterclass</li>
+                    <li>UDEMY - Selenium Automation with Python</li>
+                    <li>UDEMY - Automated Software Testing</li>
+                    <li>LinkedIn - Test Automation Foundation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        <footer>
-            <p>&copy; 2026 BeebleBrox. All rights reserved.</p>
-        </footer>
-    </div>
+    <footer id="contact">
+        <p>&copy; 2026 Elvin Malikov. All Rights Reserved.</p>
+    </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
